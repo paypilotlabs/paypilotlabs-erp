@@ -566,13 +566,13 @@ scheduler_events = {
 	],
 }
 
-email_brand_image = "assets/erpnext/images/erpnext-logo.jpg"
+email_brand_image = "assets/erpnext/images/paypilotlabs/logo-black.png"
 
 default_mail_footer = """
 	<span>
 		Sent via
-		<a class="text-muted" href="https://paypilotlabs.com/roadmap/" target="_blank">
-			ERPNext
+		<a class="text-muted" href="https://paypilotlabs.com/" target="_blank">
+			PayPilotLabs Books
 		</a>
 	</span>
 """
