@@ -1,10 +1,10 @@
 [
   {
-    "url": "https://github.com/paypilotlabs/payments.git",
+    "url": "https://github.com/paypilotlabs/paypilotlabs-payments.git",
     "branch": "main"
   },
   {
-    "url": "https://github.com/paypilotlabs/erpnext.git",
+    "url": "https://github.com/paypilotlabs/paypilotlabs-erp.git",
     "branch": "main"
   }
 ]

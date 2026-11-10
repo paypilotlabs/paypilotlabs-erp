@@ -1,7 +1,7 @@
 # Security policy
 
 ## Reporting a vulnerability in PayPilotLabs ERP
-Report it privately through GitHub's [private vulnerability reporting](https://github.com/paypilotlabs/erpnext/security/advisories/new). Do not open a public issue.
+Report it privately through GitHub's [private vulnerability reporting](https://github.com/paypilotlabs/paypilotlabs-erp/security/advisories/new). Do not open a public issue.
 
 - Include: affected version or commit, steps to reproduce, and the impact.
 - We acknowledge within 3 business days and send a status update within 10.
