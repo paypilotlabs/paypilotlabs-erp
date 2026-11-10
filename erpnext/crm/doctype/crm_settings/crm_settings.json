@@ -21,11 +21,7 @@
   "section_break_13",
   "carry_forward_communication_and_comments",
   "column_break_junk",
-  "update_timestamp_on_new_communication",
-  "frappe_crm_section",
-  "enable_frappe_crm_data_synchronization",
-  "column_break_jbzj",
-  "allowed_users"
+  "update_timestamp_on_new_communication"
  ],
  "fields": [
   {
@@ -110,30 +106,6 @@
    "fieldname": "enable_opportunity_creation_from_contact_us",
    "fieldtype": "Check",
    "label": "Enable Opportunity Creation from Contact Us"
-  },
-  {
-   "fieldname": "frappe_crm_section",
-   "fieldtype": "Section Break",
-   "label": "Frappe CRM"
-  },
-  {
-   "fieldname": "column_break_jbzj",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "allowed_users",
-   "fieldtype": "Table MultiSelect",
-   "hidden": 1,
-   "label": "Allowed Users",
-   "options": "Frappe CRM Allowed User",
-   "permlevel": 1
-  },
-  {
-   "default": "0",
-   "fieldname": "enable_frappe_crm_data_synchronization",
-   "fieldtype": "Check",
-   "label": "Enable Frappe CRM Data Synchronization",
-   "permlevel": 1
   }
  ],
  "grid_page_length": 50,

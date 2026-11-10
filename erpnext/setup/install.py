@@ -499,16 +499,8 @@ def get_changed_roles(doctype: str, statuses: tuple = ("Updated", "Removed")) ->
 
 
 def after_app_install(app_name=None):
-	if app_name == "crm":
-		from erpnext.crm.frappe_crm_api import remove_allowed_users_on_crm_install
-
-		remove_allowed_users_on_crm_install()
+	pass
 
 
 def after_app_uninstall(app_name=None):
-	if app_name == "crm":
-		from erpnext.crm.frappe_crm_api import disable_frappe_crm_data_synchronization_on_crm_uninstall
-
-		disable_frappe_crm_data_synchronization_on_crm_uninstall()
-
-		frappe.db.commit()  # nosemgrep
+	pass
