@@ -56,28 +56,28 @@
    "label": "Part Number"
   },
   {
+   "allow_on_submit": 1,
    "columns": 2,
    "fieldname": "part_name",
    "fieldtype": "Data",
-   "label": "Part Name",
-   "allow_on_submit": 1
+   "label": "Part Name"
   },
   {
+   "allow_on_submit": 1,
    "columns": 1,
+   "default": "1",
    "fieldname": "qty",
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Quantity",
-   "default": "1",
-   "non_negative": 1,
-   "allow_on_submit": 1
+   "non_negative": 1
   },
   {
+   "description": "Quantity from the design file.",
    "fieldname": "design_quantity",
    "fieldtype": "Float",
    "label": "Design Quantity",
    "read_only": 1,
-   "description": "Quantity from the design file.",
    "show_description_on_click": 1
   },
   {
@@ -91,19 +91,19 @@
    "read_only": 1
   },
   {
+   "description": "Node of the assembly this part goes into. 0 means the finished good.",
    "fieldname": "parent_node_id",
    "fieldtype": "Int",
    "label": "Parent Node",
-   "description": "Node of the assembly this part goes into. 0 means the finished good.",
    "show_description_on_click": 1
   },
   {
+   "allow_on_submit": 1,
    "default": "0",
    "fieldname": "is_expandable",
    "fieldtype": "Check",
    "label": "Is Assembly",
-   "read_only": 1,
-   "allow_on_submit": 1
+   "read_only": 1
   },
   {
    "default": "Manual",
@@ -114,6 +114,7 @@
    "read_only": 1
   },
   {
+   "allow_on_submit": 1,
    "columns": 1,
    "fieldname": "change_type",
    "fieldtype": "Select",
@@ -121,15 +122,14 @@
    "label": "Change",
    "no_copy": 1,
    "options": "\nAdded\nQuantity Changed",
-   "read_only": 1,
-   "allow_on_submit": 1
+   "read_only": 1
   },
   {
+   "allow_on_submit": 1,
    "default": "0",
    "fieldname": "exclude_from_bom",
    "fieldtype": "Check",
-   "label": "Exclude from BOM",
-   "allow_on_submit": 1
+   "label": "Exclude from BOM"
   },
   {
    "collapsible": 1,
@@ -149,45 +149,45 @@
    "label": "Item"
   },
   {
+   "allow_on_submit": 1,
    "columns": 2,
    "fieldname": "item_code",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Item Code",
-   "options": "Item",
-   "allow_on_submit": 1
+   "options": "Item"
   },
   {
+   "allow_on_submit": 1,
    "fetch_from": "item_code.item_name",
    "fieldname": "item_name",
    "fieldtype": "Data",
    "label": "Item Name",
-   "read_only": 1,
-   "allow_on_submit": 1
+   "read_only": 1
   },
   {
+   "allow_on_submit": 1,
    "fetch_from": "item_code.item_group",
    "fieldname": "item_group",
    "fieldtype": "Link",
    "label": "Item Group",
    "options": "Item Group",
-   "read_only": 1,
-   "allow_on_submit": 1
+   "read_only": 1
   },
   {
+   "allow_on_submit": 1,
    "default": "0",
+   "depends_on": "is_expandable",
    "fieldname": "is_phantom_item",
    "fieldtype": "Check",
-   "label": "Is Phantom Item",
-   "depends_on": "is_expandable",
-   "allow_on_submit": 1
+   "label": "Is Phantom Item"
   },
   {
+   "allow_on_submit": 1,
    "default": "0",
    "fieldname": "sourced_by_supplier",
    "fieldtype": "Check",
-   "label": "Sourced by Supplier",
-   "allow_on_submit": 1
+   "label": "Sourced by Supplier"
   },
   {
    "default": "0",
@@ -203,37 +203,37 @@
    "fieldtype": "Column Break"
   },
   {
+   "allow_on_submit": 1,
    "columns": 1,
    "fieldname": "uom",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "UOM",
-   "options": "UOM",
-   "allow_on_submit": 1
+   "options": "UOM"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "stock_qty",
    "fieldtype": "Float",
    "label": "Stock Qty",
-   "read_only": 1,
-   "allow_on_submit": 1
+   "read_only": 1
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "conversion_factor",
    "fieldtype": "Float",
    "label": "Conversion Factor",
-   "precision": "9",
-   "allow_on_submit": 1
+   "precision": "9"
   },
   {
+   "allow_on_submit": 1,
    "fetch_from": "item_code.stock_uom",
    "fieldname": "stock_uom",
    "fieldtype": "Link",
    "label": "Stock UOM",
    "no_copy": 1,
    "options": "UOM",
-   "read_only": 1,
-   "allow_on_submit": 1
+   "read_only": 1
   },
   {
    "fieldname": "amount_section",
@@ -241,40 +241,40 @@
    "label": "Rate and Amount"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "rate",
    "fieldtype": "Currency",
    "label": "Rate",
    "options": "currency",
-   "read_only": 1,
-   "allow_on_submit": 1
+   "read_only": 1
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "amount",
    "fieldtype": "Currency",
    "label": "Amount",
    "options": "currency",
-   "read_only": 1,
-   "allow_on_submit": 1
+   "read_only": 1
   },
   {
    "fieldname": "column_break_yuca",
    "fieldtype": "Column Break"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "base_rate",
    "fieldtype": "Currency",
    "hidden": 1,
    "label": "Base Rate",
-   "options": "Company:company:default_currency",
-   "allow_on_submit": 1
+   "options": "Company:company:default_currency"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "base_amount",
    "fieldtype": "Currency",
    "hidden": 1,
    "label": "Base Amount",
-   "options": "Company:company:default_currency",
-   "allow_on_submit": 1
+   "options": "Company:company:default_currency"
   },
   {
    "fieldname": "section_break_wtld",
@@ -282,30 +282,30 @@
    "label": "BOM"
   },
   {
+   "allow_on_submit": 1,
    "default": "1",
+   "description": "Use the item as a raw material without its own BOM.",
    "fieldname": "do_not_explode",
    "fieldtype": "Check",
    "label": "Do Not Explode",
-   "allow_on_submit": 1,
-   "description": "Use the item as a raw material without its own BOM.",
    "show_description_on_click": 1
   },
   {
+   "allow_on_submit": 1,
    "depends_on": "eval:!doc.do_not_explode",
    "fieldname": "bom_no",
    "fieldtype": "Link",
    "label": "BOM No",
-   "options": "BOM",
-   "allow_on_submit": 1
+   "options": "BOM"
   },
   {
+   "allow_on_submit": 1,
+   "depends_on": "eval:!doc.is_phantom_item",
+   "description": "Operation of the routing that uses this material.",
    "fieldname": "operation",
    "fieldtype": "Link",
    "label": "Operation",
    "options": "Operation",
-   "depends_on": "eval:!doc.is_phantom_item",
-   "allow_on_submit": 1,
-   "description": "Operation of the routing that uses this material.",
    "show_description_on_click": 1
   },
   {
@@ -313,10 +313,10 @@
    "fieldtype": "Column Break"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "instruction",
    "fieldtype": "Small Text",
-   "label": "Instruction",
-   "allow_on_submit": 1
+   "label": "Instruction"
   },
   {
    "fieldname": "model_section",
@@ -324,19 +324,19 @@
    "label": "3D Model"
   },
   {
+   "allow_on_submit": 1,
+   "description": "STEP, STL or GLB file of a material added in PayPilotLabs Books, used to place it in the 3D model.",
    "fieldname": "model_file",
    "fieldtype": "Attach",
    "label": "3D Model",
-   "allow_on_submit": 1,
-   "description": "STEP, STL or GLB file of a material added in ERPNext, used to place it in the 3D model.",
    "show_description_on_click": 1
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "placements",
    "fieldtype": "JSON",
    "hidden": 1,
-   "label": "Placements in Model",
-   "allow_on_submit": 1
+   "label": "Placements in Model"
   }
  ],
  "index_web_pages_for_search": 1,

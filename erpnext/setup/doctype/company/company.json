@@ -727,7 +727,7 @@
    "options": "Warehouse"
   },
   {
-   "documentation_url": "https://docs.frappe.io/erpnext/retain-sample-stock",
+   "documentation_url": "https://paypilotlabs.com/roadmap/",
    "fieldname": "sample_retention_warehouse",
    "fieldtype": "Link",
    "label": "Sample Retention Warehouse",

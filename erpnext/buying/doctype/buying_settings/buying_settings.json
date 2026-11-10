@@ -63,7 +63,7 @@
    "options": "Supplier Name\nNaming Series\nAuto Name"
   },
   {
-   "documentation_url": "https://docs.frappe.io/erpnext/buying-settings#2-default-supplier-group",
+   "documentation_url": "https://paypilotlabs.com/roadmap/",
    "fieldname": "supplier_group",
    "fieldtype": "Link",
    "label": "Default Supplier Group",
@@ -107,7 +107,7 @@
   },
   {
    "default": "BOM",
-   "documentation_url": "https://docs.frappe.io/erpnext/buying-settings#1-backflush-raw-materials-of-subcontract-based-on",
+   "documentation_url": "https://paypilotlabs.com/roadmap/",
    "fieldname": "backflush_raw_materials_of_subcontract_based_on",
    "fieldtype": "Select",
    "label": "Backflush raw materials of subcontract based on",
