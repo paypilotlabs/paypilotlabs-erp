@@ -1,20 +1,22 @@
 app_name = "erpnext"
-app_title = "PayPilotLabs Books"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+from erpnext.brand import BRAND
+
+app_title = BRAND["product_name"]
+app_publisher = BRAND["company"]
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
-app_email = "hello@frappe.io"
+app_email = BRAND["email"]
 app_license = "GNU General Public License (v3)"
 source_link = "https://github.com/frappe/erpnext"
-app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
+app_logo_url = BRAND["logo"]
 app_home = "/desk/home"
 
 add_to_apps_screen = [
 	{
 		"name": app_name,
-		"logo": "/assets/erpnext/images/erpnext-logo.svg",
-		"title": app_title,
+		"logo": BRAND["logo"],
+		"title": BRAND["product_name"],
 		"route": app_home,
 		"setup_wizard_text": "Let's give your business a home.",
 		"has_permission": "erpnext.check_app_permission",
