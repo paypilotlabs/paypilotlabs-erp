@@ -12,7 +12,7 @@ Assets
 Portal
 Maintenance
 Regional
-PayPilotLabs Books Integrations
+PayPilotLabs ERP Integrations
 Quality Management
 Communication
 Telephony

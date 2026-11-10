@@ -160,7 +160,7 @@ def repost_incorrect_valuation_entries_for_company(company):
 	1. Stock Ledger Variance - item-warehouses whose ledger valuation is internally inconsistent
 	   (typically a wrong previous-SLE pick). Fixed with an Item & Warehouse repost.
 	2. Stock and Account Value Comparison - vouchers whose stock value does not match the accounting
-	   ledger. Reposted via the report's own logic (Journal Entries are excluded - PayPilotLabs Books does not
+	   ledger. Reposted via the report's own logic (Journal Entries are excluded - PayPilotLabs ERP does not
 	   repost them). If a voucher's warehouse points at an account that is not of type 'Stock',
 	   reposting can never clear the difference, so System Managers are notified instead."""
 	from erpnext.accounts.utils import get_fiscal_year

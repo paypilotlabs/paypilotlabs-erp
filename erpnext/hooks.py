@@ -572,7 +572,7 @@ default_mail_footer = """
 	<span>
 		Sent via
 		<a class="text-muted" href="https://paypilotlabs.com/" target="_blank">
-			PayPilotLabs Books
+			PayPilotLabs ERP
 		</a>
 	</span>
 """

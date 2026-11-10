@@ -325,7 +325,7 @@
   },
   {
    "allow_on_submit": 1,
-   "description": "STEP, STL or GLB file of a material added in PayPilotLabs Books, used to place it in the 3D model.",
+   "description": "STEP, STL or GLB file of a material added in PayPilotLabs ERP, used to place it in the 3D model.",
    "fieldname": "model_file",
    "fieldtype": "Attach",
    "label": "3D Model",

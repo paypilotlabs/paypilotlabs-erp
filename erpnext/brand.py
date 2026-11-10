@@ -5,8 +5,8 @@ apps-screen tile. Logo files live in erpnext/public/images/paypilotlabs/.
 """
 
 BRAND = {
-	"product_name": "PayPilotLabs Books",
-	"short_name": "Books",
+	"product_name": "PayPilotLabs ERP",
+	"short_name": "ERP",
 	"company": "PayPilotLabs",
 	"website": "https://paypilotlabs.com",
 	"support_url": "https://paypilotlabs.com/roadmap/",
