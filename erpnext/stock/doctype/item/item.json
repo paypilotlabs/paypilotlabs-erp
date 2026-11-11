@@ -394,7 +394,7 @@
   {
    "depends_on": "is_stock_item",
    "description": "Serialized items are valued at Moving Average once stock transactions exist and Serial No Wise Valuation is disabled.",
-   "documentation_url": "https://paypilotlabs.com/roadmap/",
+   "documentation_url": "https://docs.frappe.io/erpnext/change-valuation-method",
    "fieldname": "valuation_method",
    "fieldtype": "Select",
    "label": "Valuation Method",
@@ -505,7 +505,7 @@
    "default": "0",
    "depends_on": "has_batch_no",
    "description": "Enable to reserve a small sample from each batch for any analysis arising ahead",
-   "documentation_url": "https://paypilotlabs.com/roadmap/",
+   "documentation_url": "https://docs.frappe.io/erpnext/retain-sample-stock",
    "fieldname": "retain_sample",
    "fieldtype": "Check",
    "label": "Retain Sample",
