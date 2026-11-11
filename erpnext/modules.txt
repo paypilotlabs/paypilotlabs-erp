@@ -12,7 +12,7 @@ Assets
 Portal
 Maintenance
 Regional
-PayPilotLabs ERP Integrations
+ERPNext Integrations
 Quality Management
 Communication
 Telephony
