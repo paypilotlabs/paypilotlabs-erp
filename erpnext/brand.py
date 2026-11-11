@@ -10,7 +10,7 @@ BRAND = {
 	"company": "PayPilotLabs",
 	"website": "https://paypilotlabs.com",
 	"support_url": "https://paypilotlabs.com/roadmap/",
-	"email": "dev@paypilotlabs.com",  # placeholder: change to the real support address
+	"email": "founder@paypilotlabs.com",
 	"logo": "/assets/erpnext/images/paypilotlabs/symbol-black.svg",
 	"logo_dark": "/assets/erpnext/images/paypilotlabs/symbol-white.svg",
 	"wordmark": "/assets/erpnext/images/paypilotlabs/logo-black.svg",
