@@ -1,15 +1,15 @@
 {
-  "name": "erpnext",
-  "description": "Open Source ERP System powered by the Frappe Framework",
+  "name": "paypilotlabs-erp",
+  "description": "PayPilotLabs ERP: open-source ERP built on the Frappe Framework",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frappe/erpnext.git"
+    "url": "git+https://github.com/paypilotlabs/paypilotlabs-erp.git"
   },
-  "homepage": "https://frappe.io/erpnext",
+  "homepage": "https://paypilotlabs.com",
   "author": "Frappe Technologies Pvt. Ltd.",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/frappe/erpnext/issues"
+    "url": "https://github.com/paypilotlabs/paypilotlabs-erp/issues"
   },
   "scripts": {
     "postinstall": "cd banking && yarn install",

@@ -9,13 +9,14 @@ import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
 from frappe.desk.page.setup_wizard.setup_wizard import add_all_roles_to
 
+from erpnext.brand import BRAND
 from erpnext.setup.doctype.incoterm.incoterm import create_incoterms
 from erpnext.setup.utils import identity as _
 
 from .default_success_action import get_default_success_action
 
 default_mail_footer = """<div style="padding: 7px; text-align: right; color: #888"><small>Sent via
-	<a style="color: #888" href="https://paypilotlabs.com/roadmap/">PayPilotLabs ERP</a></div>"""
+	<a style="color: #888" href="https://paypilotlabs.com/">PayPilotLabs ERP</a></div>"""
 
 
 def after_install():
@@ -224,25 +225,13 @@ def add_standard_navbar_items():
 		{
 			"item_label": _("Documentation"),
 			"item_type": "Route",
-			"route": "https://docs.erpnext.com/",
+			"route": "https://docs.frappe.io/erpnext",
 			"is_standard": 1,
 		},
 		{
-			"item_label": _("User Forum"),
+			"item_label": _("Support"),
 			"item_type": "Route",
-			"route": "https://discuss.frappe.io",
-			"is_standard": 1,
-		},
-		{
-			"item_label": _("Frappe School"),
-			"item_type": "Route",
-			"route": "https://paypilotlabs.com/roadmap/",
-			"is_standard": 1,
-		},
-		{
-			"item_label": _("Report an Issue"),
-			"item_type": "Route",
-			"route": "https://github.com/frappe/erpnext/issues",
+			"route": BRAND["support_url"],
 			"is_standard": 1,
 		},
 	]

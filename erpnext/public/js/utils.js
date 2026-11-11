@@ -496,8 +496,8 @@ $.extend(erpnext.utils, {
 	check_payments_app: () => {
 		if (frappe.boot.versions && !frappe.boot.versions.payments) {
 			const marketplace_link =
-				'<a href="https://paypilotlabs.com/roadmap/">Marketplace</a>';
-			const github_link = '<a href="https://github.com/frappe/payments/">GitHub</a>';
+				'<a href="https://paypilotlabs.com/roadmap/">PayPilotLabs Support</a>';
+			const github_link = '<a href="https://github.com/paypilotlabs/paypilotlabs-payments">GitHub</a>';
 			const msg = __("payments app is not installed. Please install it from {0} or {1}", [
 				marketplace_link,
 				github_link,

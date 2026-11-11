@@ -8,7 +8,7 @@ app_icon = "fa fa-th"
 app_color = "#e74c3c"
 app_email = BRAND["email"]
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
+source_link = "https://github.com/paypilotlabs/paypilotlabs-erp"
 app_logo_url = BRAND["logo"]
 app_home = "/desk/home"
 
@@ -143,8 +143,8 @@ calendars = ["Task", "Work Order", "Sales Order", "Holiday List", "ToDo"]
 website_generators = ["BOM", "Sales Partner"]
 
 website_context = {
-	"favicon": "/assets/erpnext/images/erpnext-favicon.svg",
-	"splash_image": "/assets/erpnext/images/erpnext-logo.svg",
+	"favicon": BRAND["favicon"],
+	"splash_image": BRAND["wordmark"],
 }
 
 # nosemgrep

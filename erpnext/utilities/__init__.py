@@ -69,8 +69,8 @@ def get_site_info(site_info):
 
 @contextmanager
 def payment_app_import_guard():
-	marketplace_link = '<a href="https://paypilotlabs.com/roadmap/">Marketplace</a>'
-	github_link = '<a href="https://github.com/frappe/payments/">GitHub</a>'
+	marketplace_link = '<a href="https://paypilotlabs.com/roadmap/">PayPilotLabs Support</a>'
+	github_link = '<a href="https://github.com/paypilotlabs/paypilotlabs-payments">GitHub</a>'
 	msg = _("payments app is not installed. Please install it from {} or {}").format(
 		marketplace_link, github_link
 	)
