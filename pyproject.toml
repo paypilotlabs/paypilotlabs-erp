@@ -3,7 +3,10 @@ name = "erpnext"
 authors = [
     { name = "Frappe Technologies Pvt Ltd", email = "developers@frappe.io"}
 ]
-description = "Open Source ERP"
+maintainers = [
+    { name = "PayPilotLabs" }
+]
+description = "PayPilotLabs ERP: open-source ERP based on ERPNext"
 requires-python = ">=3.14"
 readme = "README.md"
 dynamic = ["version"]
@@ -88,7 +91,8 @@ docstring-code-format = true
 
 
 [project.urls]
-Homepage = "https://frappe.io/erpnext"
-Repository = "https://github.com/frappe/erpnext.git"
+Homepage = "https://paypilotlabs.com"
+Repository = "https://github.com/paypilotlabs/paypilotlabs-erp.git"
 Documentation = "https://docs.frappe.io/erpnext"
-"Bug Reports" = "https://github.com/frappe/erpnext/issues"
+"Bug Reports" = "https://github.com/paypilotlabs/paypilotlabs-erp/issues"
+Upstream = "https://github.com/frappe/erpnext"
