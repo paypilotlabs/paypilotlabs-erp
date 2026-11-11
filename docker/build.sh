@@ -12,8 +12,10 @@ APPS_JSON=$(mktemp)
 trap 'rm -f "$APPS_JSON"' EXIT
 sed "s#https://github.com/#https://${AUTH}github.com/#" docker/apps.json > "$APPS_JSON"
 # apps.json goes in as a build secret (what the Containerfile reads), so a token never lands in the image history.
+# Secrets are not part of BuildKit's cache key: without CACHE_BUST, builds of two products share the bench layer.
 docker build \
   --secret=id=apps_json,src="$APPS_JSON" \
+  --build-arg=CACHE_BUST="$(git hash-object docker/apps.json)" \
   --build-arg=FRAPPE_PATH="https://${AUTH}github.com/paypilotlabs/paypilotlabs-framework.git" \
   --build-arg=FRAPPE_BRANCH="${FRAPPE_BRANCH:-develop}" \
   --build-arg=PYTHON_VERSION=3.14 \
