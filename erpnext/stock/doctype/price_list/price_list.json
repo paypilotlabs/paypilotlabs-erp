@@ -7,7 +7,7 @@
  "description": "A set of item prices for buying, selling or both.",
  "doctype": "DocType",
  "document_type": "Setup",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/price-lists",
+ "documentation": "https://paypilotlabs.com/roadmap/",
  "engine": "InnoDB",
  "field_order": [
   "enabled",

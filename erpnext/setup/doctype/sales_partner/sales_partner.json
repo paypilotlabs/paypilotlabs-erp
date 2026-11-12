@@ -7,7 +7,7 @@
  "description": "A distributor, dealer or reseller who sells for you on commission.",
  "doctype": "DocType",
  "document_type": "Setup",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/sales-partner",
+ "documentation": "https://paypilotlabs.com/roadmap/",
  "engine": "InnoDB",
  "field_order": [
   "partner_name",

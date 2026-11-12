@@ -8,7 +8,7 @@
  "description": "Someone who might buy from you.",
  "doctype": "DocType",
  "document_type": "Document",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/lead",
+ "documentation": "https://paypilotlabs.com/roadmap/",
  "email_append_to": 1,
  "engine": "InnoDB",
  "field_order": [

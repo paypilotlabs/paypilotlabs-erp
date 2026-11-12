@@ -6,7 +6,7 @@
  "description": "A bank account of yours or of a customer or supplier.",
  "doctype": "DocType",
  "document_type": "Setup",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/bank-account",
+ "documentation": "https://paypilotlabs.com/roadmap/",
  "engine": "InnoDB",
  "field_order": [
   "account_name",

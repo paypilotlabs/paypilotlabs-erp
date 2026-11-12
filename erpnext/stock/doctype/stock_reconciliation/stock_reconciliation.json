@@ -5,7 +5,7 @@
  "description": "Sets stock quantities and values to what is actually in your warehouses.",
  "doctype": "DocType",
  "document_type": "Document",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation",
+ "documentation": "https://paypilotlabs.com/roadmap/",
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
