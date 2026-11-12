@@ -223,12 +223,6 @@ def add_standard_navbar_items():
 	navbar_settings = frappe.get_single("Navbar Settings")
 	erpnext_navbar_items = [
 		{
-			"item_label": _("Documentation"),
-			"item_type": "Route",
-			"route": "https://docs.frappe.io/erpnext",
-			"is_standard": 1,
-		},
-		{
 			"item_label": _("Support"),
 			"item_type": "Route",
 			"route": BRAND["support_url"],

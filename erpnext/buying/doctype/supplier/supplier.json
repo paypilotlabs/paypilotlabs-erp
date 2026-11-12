@@ -8,7 +8,7 @@
  "description": "A company or person you buy goods or services from.",
  "doctype": "DocType",
  "document_type": "Setup",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/supplier",
+ "documentation": "https://paypilotlabs.com/roadmap/",
  "engine": "InnoDB",
  "field_order": [
   "naming_series",

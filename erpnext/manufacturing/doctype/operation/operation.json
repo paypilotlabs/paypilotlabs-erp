@@ -7,7 +7,7 @@
  "description": "A step in making an item, like cutting or assembly.",
  "doctype": "DocType",
  "document_type": "Setup",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/operation",
+ "documentation": "https://paypilotlabs.com/roadmap/",
  "engine": "InnoDB",
  "field_order": [
   "workstation",

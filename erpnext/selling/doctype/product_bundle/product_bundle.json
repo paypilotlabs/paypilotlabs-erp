@@ -4,7 +4,7 @@
  "creation": "2013-06-20 11:53:21",
  "description": "Sells several items together as one item.",
  "doctype": "DocType",
- "documentation": "https://docs.frappe.io/erpnext/user/manual/en/product-bundle",
+ "documentation": "https://paypilotlabs.com/roadmap/",
  "engine": "InnoDB",
  "field_order": [
   "basic_section",
